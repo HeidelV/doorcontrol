@@ -13,7 +13,8 @@ body {
 .nav-text {
     font-size: 2rem; 
     color: white;
-    font-family: "Orbitron", sans-serif;
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: bold;
 }
 
 .navbar {
