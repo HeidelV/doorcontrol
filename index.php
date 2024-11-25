@@ -1,5 +1,8 @@
 <?php
-require_once 'php/init.php'; // Ensure the correct relative path
+require_once 'php/init.php'; 
+
+$con = new config();
+$con->con();
 ?>
 
 <!doctype html>
