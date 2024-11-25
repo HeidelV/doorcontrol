@@ -36,8 +36,8 @@ require_once 'php/init.php'; // Ensure the correct relative path
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link d-none d-sm-block" href="index.html"><i class="fa-solid fa-book"></i></a>
-              <a class="nav-link active d-block d-sm-none" href="index.html">Log History</a>
+              <a class="nav-link d-none d-sm-block" href="index.php"><i class="fa-solid fa-book"></i></a>
+              <a class="nav-link active d-block d-sm-none" href="index.php">Log History</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active d-none d-sm-block" href="settings.html"><i class="fa-solid fa-gear"></i></a>
