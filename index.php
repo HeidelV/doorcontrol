@@ -1,3 +1,7 @@
+<?php
+require_once 'php/init.php'; // Ensure the correct relative path
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -50,31 +54,23 @@
       <div class="container mt-4">
         <table class="table table-striped table-hover">
           <thead class="table-dark">
-            <tr>
-              <th>ID</th>
-              <th>Timestamp</th>
-              <th>Method</th>
-              <th>Door State</th>
-              <th>Profile</th>
-            </tr>
+              <tr>
+                  <th>ID</th>
+                  <th>Timestamp</th>
+                  <th>Action</th>
+                  <th>Method</th>
+                  <th>Door State</th>
+                  <th>Profile</th>
+              </tr>
           </thead>
           <tbody>
-            <tr>
-              <td>1</td>
-              <td>Data 1</td>
-              <td>Data 2</td>
-              <td>Data 3</td>
-              <td>Data 4</td>
-            </tr>
-            <tr>
-              <td>2</td>
-              <td>Data 4</td>
-              <td>Data 5</td>
-              <td>Data 6</td>
-              <td>Data 7</td>
-            </tr>
+              <?php
+              // Create an instance of viewLog and call the function
+              $viewLog = new viewLog();
+              $viewLog->viewLog();
+              ?>
           </tbody>
-        </table>
+      </table>
       </div>
     </div>
 
