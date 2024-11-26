@@ -30,7 +30,7 @@ body {
     background-color: rgb(53, 60, 83);
 }
 
-.log-history-title {
+.settings-title {
     margin-top: 35px;
     color: white;
     font-family: "Kanit", sans-serif;
@@ -71,6 +71,16 @@ body {
     color: #ffffff; 
     font-weight: bold; 
 }
+
+.full-width-button {
+  width: 100%; /* Make the button fill its container */
+  text-align: center; /* Center the text within the button */
+}
+
+.settings-header{
+  font-weight: bold;
+}
+
 
 /* Media query for smaller screens (iPhone SE and below) */
 @media (max-width: 767px) {

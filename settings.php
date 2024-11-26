@@ -48,12 +48,37 @@
 
     <!-- Main Content Section -->
     <div class="main-content container-fluid" style="flex: 1;">
-      <h1 class="log-history-title">SETTINGS</h1>
+      <h1 class="settings-title w-50 mx-auto">SETTINGS</h1>
 
       <!-- Card with list items -->
-      <div class="card w-100" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin-top: 20px;">
+      <div class="card w-50 mx-auto" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin-top: 20px;">
         <form action="" method="GET">
           <ul class="list-group list-group-flush">
+            <li class="list-group-item password-con">
+              <span class="settings-header">Fingerprint</span>
+            </li>
+            <li class="list-group-item password-con">
+              <div class="password-box">
+                <label for="input-pass">First Name:</label>
+              </div>
+              <input name="input-pass" type="password" placeholder="Input your first name">
+            </li>
+            <li class="list-group-item password-con">
+              <div class="password-box">
+                <label for="input-pass">Last Name:</label>
+              </div>
+              <input name="input-pass" type="password" placeholder="Input your last name">
+            </li>
+            <li class="list-group-item password-con">
+              <div class="d-grid gap-2 w-100">
+                <button class="btn btn-primary" type="button">
+                  Request for a Fingerprint Enrollment
+                </button>
+              </div>
+            </li>
+            <li class="list-group-item password-con">
+              <span class="settings-header">Password</span>
+            </li>
             <li class="list-group-item password-con">
               <div class="password-box">
                 <label for="input-pass">Current Password:</label>
@@ -72,11 +97,17 @@
               </div>
               <input name="verify-pass" type="password" placeholder="Verify new password">
             </li>
+            <li class="list-group-item password-con">
+              <div class="d-grid gap-2 w-100">
+                <button class="btn btn-primary" type="button">Submit</button>
+              </div>
+            </li>
           </ul>
         </form>
       </div>       
     </div>
     <!-- I love youuuu!! My beautiful, busy Berg <3<3<3xxx -->
+    <!-- I love you too >:3 Daniel Russell Pogi ayeeee <3~~~~~ -->
     <!-- Footer -->
     <footer style="background-color: #111; color: #fff; padding: 20px; text-align: center;">
       <div>
