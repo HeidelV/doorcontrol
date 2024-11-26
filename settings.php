@@ -5,10 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Door Control: Settings</title>
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Custom CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/settings.css">
 
     <!-- Google Fonts -->
@@ -38,8 +38,8 @@
             </li>
             <li class="nav-item">
               <!-- Show icon on desktop/tablet (d-none d-sm-block) and text only on mobile (d-block d-sm-none) -->
-              <a class="nav-link active d-none d-sm-block" href="settings.html"><i class="fa-solid fa-gear"></i></a>
-              <a class="nav-link active d-block d-sm-none" href="settings.html">Settings</a>
+              <a class="nav-link active d-none d-sm-block" href="settings.php"><i class="fa-solid fa-gear"></i></a>
+              <a class="nav-link active d-block d-sm-none" href="settings.php">Settings</a>
             </li>
           </ul>
         </div>
@@ -52,15 +52,31 @@
 
       <!-- Card with list items -->
       <div class="card w-100" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin-top: 20px;">
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">Password</li>
-          <li class="list-group-item">I </li>
-          <li class="list-group-item">Love</li>
-          <li class="list-group-item">You</li>
-        </ul>
+        <form action="" method="GET">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item password-con">
+              <div class="password-box">
+                <label for="input-pass">Current Password:</label>
+              </div>
+              <input name="input-pass" type="password" placeholder="Input current password">
+            </li>
+            <li class="list-group-item password-con">
+                <div class="password-box">
+                <label for="input-pass">New Password:</label>
+              </div>
+              <input name="new-pass" type="password" placeholder="Input new password">
+            </li>
+            <li class="list-group-item password-con">
+              <div class="password-box">
+                <label for="verify-pass">Verify New Password:</label>
+              </div>
+              <input name="verify-pass" type="password" placeholder="Verify new password">
+            </li>
+          </ul>
+        </form>
       </div>       
     </div>
-
+    <!-- I love youuuu!! My beautiful, busy Berg <3<3<3xxx -->
     <!-- Footer -->
     <footer style="background-color: #111; color: #fff; padding: 20px; text-align: center;">
       <div>

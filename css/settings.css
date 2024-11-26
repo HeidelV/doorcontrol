@@ -88,10 +88,25 @@ body {
   .navbar-nav .nav-link {
     font-size: 1.1rem; /* Further reduce font size for nav links on small screens */
   }
-
   /* Log history title adjustments */
   .log-history-title {
     font-size: 1.8rem; /* Reduce title size on mobile */
     margin-top: 20px;
   }
+  .main-content{
+    padding: 20px;
+  }
+}
+
+.password-con{
+  display: flex;
+  flex-direction: row;
+}
+
+
+.password-box{
+  width: 170px !important;
+  text-align: end;
+  padding-left: 10px;
+  padding-right: 10px;
 }

@@ -43,8 +43,8 @@ $con->con();
               <a class="nav-link active d-block d-sm-none" href="index.php">Log History</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active d-none d-sm-block" href="settings.html"><i class="fa-solid fa-gear"></i></a>
-              <a class="nav-link d-block d-sm-none" href="settings.html">Settings</a>
+              <a class="nav-link active d-none d-sm-block" href="settings.php"><i class="fa-solid fa-gear"></i></a>
+              <a class="nav-link d-block d-sm-none" href="settings.php">Settings</a>
             </li>
           </ul>
         </div>
