@@ -1,10 +1,14 @@
 <?php
 require_once 'config.php'; // Ensure config.php is included
 
-class viewLog extends config {
+class fingerprint extends config {
     public function settings() {
+        $ID = "";
+        if (isset($_POST['fing_submit'])) {
+            $_GET['fing_submit'];
+        }
         $con = $this->con(); // Get the database connection
-        $sql = "SELECT col_log_id, col_timestamp, col_action, col_method, col_door_state, col_profile_id FROM tbl_logs ORDER BY col_timestamp DESC";
+        $sql = "INSERT INTO db_autodoor.tbl_finger_add_req (tbl_finger_add_req.col_status) VALUES ('Pending')";
         $stmt = $con->prepare($sql);
 
         try {

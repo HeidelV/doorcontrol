@@ -1,3 +1,10 @@
+<?php
+require_once 'php/class/fingerprint.php'; 
+
+$con = new config();
+$con->con();
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -52,7 +59,7 @@
 
       <!-- Card with list items -->
       <div class="card w-50 mx-auto" style="box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); margin-top: 20px;">
-        <form action="" method="GET">
+        <form action="php/class/fingerprint.php" method="POST ">
           <ul class="list-group list-group-flush">
             <li class="list-group-item password-con">
               <span class="settings-header">Fingerprint</span>
@@ -70,8 +77,8 @@
               <input name="input-pass" type="password" placeholder="Input your last name">
             </li>
             <li class="list-group-item password-con">
-              <div class="d-grid gap-2 w-100">
-                <button class="btn btn-primary" type="button">
+              <div class="d-grid gap-2 w-100 finger-button-con">
+                <button class="btn btn-primary finger-button" type="submit" name="fing_submit" value="add">
                   Request for a Fingerprint Enrollment
                 </button>
               </div>
@@ -98,8 +105,8 @@
               <input name="verify-pass" type="password" placeholder="Verify new password">
             </li>
             <li class="list-group-item password-con">
-              <div class="d-grid gap-2 w-100">
-                <button class="btn btn-primary" type="button">Submit</button>
+              <div class="d-grid gap-2 w-100 finger-button-con">
+                <button class="btn btn-primary finger-button" type="button">Submit</button>
               </div>
             </li>
           </ul>
@@ -108,6 +115,7 @@
     </div>
     <!-- I love youuuu!! My beautiful, busy Berg <3<3<3xxx -->
     <!-- I love you too >:3 Daniel Russell Pogi ayeeee <3~~~~~ -->
+     <!-- (⁠〃˘⁠3ﾟ⁠〃⁠).｡⁠*⁠♡ (⁠〃˘⁠3ﾟ⁠〃⁠).｡⁠*⁠♡ -->
     <!-- Footer -->
     <footer style="background-color: #111; color: #fff; padding: 20px; text-align: center;">
       <div>

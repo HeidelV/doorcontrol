@@ -120,3 +120,11 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+
+.finger-button{
+  max-width: 300px;
+}
+
+.finger-button-con{
+  padding-left: 10%;
+}
